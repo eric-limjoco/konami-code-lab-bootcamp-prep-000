@@ -15,10 +15,10 @@ let index = 0;
 
 function onKeyDownHandler(e){
   const key = e.key;
-  console.log(index, key)
   
   if(key === codes[index]){
     index++;
+    console.log(index, key)
     if(index === codes.length){
       alert("Hurray!")
     }
